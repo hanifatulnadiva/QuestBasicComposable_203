@@ -1,6 +1,7 @@
 package com.example.test
 
-import android.R
+
+import androidx.compose.foundation.Image
 import androidx.compose.foundation.background
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Box
@@ -17,8 +18,13 @@ import androidx.compose.runtime.Composable
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.layout.ContentScale
+import androidx.compose.ui.res.painterResource
+import androidx.compose.ui.text.font.FontFamily
+import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.text.style.LineHeightStyle
 import androidx.compose.ui.unit.dp
+import androidx.compose.ui.unit.sp
 
 @Composable
 fun TataletakColumn(modifier:Modifier){
@@ -122,6 +128,7 @@ fun TataletakRowCulumn(modifier: Modifier)
 
 @Composable
 fun TataletakBoxColumnRow(modifier: Modifier){
+    val gambar = painterResource(id = R.drawable.foto_alam)
     Column {
         Box (modifier = Modifier
             .fillMaxWidth()
@@ -153,6 +160,16 @@ fun TataletakBoxColumnRow(modifier: Modifier){
             .background(color = Color.Cyan),
             contentAlignment = Alignment.Center)
         {
+            Image(painter=gambar,
+                contentDescription = null,
+                contentScale = ContentScale.Fit)
+            Text(text="my music",
+                fontSize = 50.sp,
+                color = Color.Red,
+                fontWeight = FontWeight.Bold,
+                fontFamily = FontFamily.Cursive,
+                modifier = Modifier.align (
+                    alignment = Alignment.Center))
 
         }
 
