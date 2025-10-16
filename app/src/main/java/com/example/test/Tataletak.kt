@@ -113,3 +113,9 @@ fun TataletakRowCulumn(modifier: Modifier)
         }
     }
 }
+
+@Composable
+fun TataletakBoxColumnRow(modifier: Modifier)
+{
+
+}
