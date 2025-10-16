@@ -98,6 +98,11 @@ fun TataletakRowCulumn(modifier: Modifier)
     Row(modifier= Modifier.fillMaxWidth(),
         horizontalArrangement = Arrangement.SpaceEvenly)
     {
-
+        Column()
+        {
+            Text(text ="Komponen 1 kolom1")
+            Text(text ="komponen 2 kolom1")
+            Text(text ="komponen 3 kolom1")
+        }
     }
 }
