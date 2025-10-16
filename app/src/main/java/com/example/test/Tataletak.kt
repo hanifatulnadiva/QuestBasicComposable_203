@@ -26,5 +26,9 @@ fun TataletakColumn(modifier:Modifier){
 }
 @Composable
 fun TataletakColumn2(modifier: Modifier){
-    Column(){}
+    Column(modifier=Modifier
+        .padding(top = 50.dp)
+        .fillMaxSize(),
+        verticalArrangement = Arrangement.Center,
+        horizontalAlignment = Alignment.CenterHorizontally){}
 }
