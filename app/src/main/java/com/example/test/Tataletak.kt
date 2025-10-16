@@ -104,5 +104,12 @@ fun TataletakRowCulumn(modifier: Modifier)
             Text(text ="komponen 2 kolom1")
             Text(text ="komponen 3 kolom1")
         }
+
+        Column()
+        {
+            Text(text ="Komponen 1 kolom2")
+            Text(text ="komponen 2 kolom2")
+            Text(text ="komponen 3 kolom2")
+        }
     }
 }
