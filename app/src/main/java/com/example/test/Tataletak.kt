@@ -26,5 +26,5 @@ fun TataletakColumn(modifier:Modifier){
 }
 @Composable
 fun TataletakColumn2(modifier: Modifier){
-
+    Column(){}
 }
