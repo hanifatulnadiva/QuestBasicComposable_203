@@ -1,5 +1,6 @@
 package com.example.test
 
+import android.R
 import androidx.compose.foundation.background
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Box
@@ -147,6 +148,14 @@ fun TataletakBoxColumnRow(modifier: Modifier){
             }
         }
         Spacer(modifier= Modifier.height(height = 10.dp))
+        Box(modifier= Modifier.fillMaxWidth()
+            .height(height = 300.dp)
+            .background(color = Color.Cyan),
+            contentAlignment = Alignment.Center)
+        {
+
+        }
+
     }
 }
 
