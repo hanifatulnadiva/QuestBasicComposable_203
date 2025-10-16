@@ -30,5 +30,12 @@ fun TataletakColumn2(modifier: Modifier){
         .padding(top = 50.dp)
         .fillMaxSize(),
         verticalArrangement = Arrangement.Center,
-        horizontalAlignment = Alignment.CenterHorizontally){}
+        horizontalAlignment = Alignment.CenterHorizontally)
+    {
+        Text(text="Komponen 1")
+        Text(text = "komponen 2")
+        Text(text="komponen 3")
+        Text(text = "komponen 4")
+        Text(text = "komponen 5")
+    }
 }
