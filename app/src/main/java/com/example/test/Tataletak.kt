@@ -72,5 +72,12 @@ fun TataletakBox(modifier: Modifier){
 
 @Composable
 fun TataletakColumnRow(modifier: Modifier){
-    Column (){}
+    Column (){
+        //baris1
+        Row (modifier = Modifier.fillMaxWidth(),
+            horizontalArrangement = Arrangement.SpaceEvenly)
+            {
+
+            }
+    }
 }
