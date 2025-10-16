@@ -42,5 +42,8 @@ fun TataletakColumn2(modifier: Modifier){
 
 @Composable
 fun TataletakRow(modifier:Modifier){
-    Row (){  }
+    Row (modifier = Modifier
+        .fillMaxWidth(),
+        horizontalArrangement = Arrangement.SpaceEvenly)
+    {  }
 }
